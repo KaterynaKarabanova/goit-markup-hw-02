@@ -1,4 +1,7 @@
-
+section{
+    display: block;
+    width: 1440px;
+}
 .header-parts {
    display: inline;
     width: 1440px;
@@ -10,8 +13,16 @@
     width: 115px;
     height: 21px;
     float: left;
-    
+    padding-left: 156px;
 }
+.navigation {
+    padding-left: 347px;
+}
+.address{
+    padding-left: 940px; 
+    padding-right: 156px;
+}
+
 .navigation, .address, .studio, .activity-list, .team-list {
     list-style: none;
     
@@ -21,51 +32,75 @@
 .navigation li, .address li, .studio-list, .activity li, .team-members {
     float: left;
 }
-.studio {
-    width: 1440px;
-    
-    
-}
-.studio-list {
-    width: 264px;
-    height: 104px;
-    margin-top: 120px;
-    margin-bottom: 120px;
-    padding-left: 24px;
-}
 .solutions {
-    display: block;
+
     width: 1440px;
     height: 600px;
     background-color: blue;
 }
+
 .solutions-title-buton {
     width: 496px;
     height: 168px;
     margin-left: 496px;
     padding-top: 260px;
 }
-.h1 {
+
+h1 {
     width: 496px;
 }
+
 .button-order {
     width: 169px;
     height: 56px;
     background-color: orange;
-   margin-left: px;
+
     margin-top: 48px;
 }
-
-.activity {
-    width: 1440px;
+.studio-title-first {
+    display: none;
+}
+.studio {
+    width: 1128px;
+    height: 104px;
+    margin: 120px 132px 0 156px;
     
+}
+.studio-list {
+    width: 264px;
+    height: 104px;
    
 }
+
+
+
+.activity {
+    margin-top: 224px;
+        width: 1440px;
+        height: 732px;
+}
 .activity-title {
+    margin-top: 0;
+    padding-bottom: 19px;
+}
+h2 {
+    text-align: center;
+   
+}
+.activity-list {
+    margin: 0 156px 0 156px;
+    width: 1128px;
+    
+}
+.activity-photo {
+    padding-top: 112px;
+}
+.activity-photo-center {
+    padding: 112px 24px;
     
 }
 .team {
-    margin-top: 1548px;
+     
     width: 1440px;
     height: 732px;
 }
