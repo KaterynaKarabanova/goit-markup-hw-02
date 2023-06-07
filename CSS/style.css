@@ -1,6 +1,50 @@
 
 .header-parts {
-    display: inline;
-    padding: ;
+   display: inline;
+    width: 1440px;
+    height: 72px;
+    padding-right: 40px;
 }
 
+.logo {
+    width: 115px;
+    height: 21px;
+    float: left;
+    
+}
+.navigation, .address, .studio, .activity-list, .team-list {
+    list-style: none;
+    
+}
+
+
+.navigation li, .address li, .studio-list, .activity li, .team-members {
+    float: left;
+}
+.studio-list {
+    width: 264px;
+    height: 104px;
+    margin-top: 792px;
+    padding-left: 24px;
+}
+.solutions {
+    display: inline;
+    width: 1440px;
+    height: 600px;
+}
+.solutions-title-buton {
+    width: 496px;
+    height: 168px;
+}
+
+
+.activity {
+    width: 1440px;
+    height: auto;
+    margin-top: 1016px;
+}
+.team {
+    margin-top: 1548px;
+    width: 1440px;
+    height: 732px;
+}
