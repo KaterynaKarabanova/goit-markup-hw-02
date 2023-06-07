@@ -21,27 +21,48 @@
 .navigation li, .address li, .studio-list, .activity li, .team-members {
     float: left;
 }
+.studio {
+    width: 1440px;
+    
+    
+}
 .studio-list {
     width: 264px;
     height: 104px;
-    margin-top: 792px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     padding-left: 24px;
 }
 .solutions {
-    display: inline;
+    display: block;
     width: 1440px;
     height: 600px;
+    background-color: blue;
 }
 .solutions-title-buton {
     width: 496px;
     height: 168px;
+    margin-left: 496px;
+    padding-top: 260px;
 }
-
+.h1 {
+    width: 496px;
+}
+.button-order {
+    width: 169px;
+    height: 56px;
+    background-color: orange;
+   margin-left: px;
+    margin-top: 48px;
+}
 
 .activity {
     width: 1440px;
-    height: auto;
-    margin-top: 1016px;
+    
+   
+}
+.activity-title {
+    
 }
 .team {
     margin-top: 1548px;
