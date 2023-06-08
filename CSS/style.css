@@ -2,7 +2,7 @@ section{
     display: block;
     width: 1440px;
 }
-.header-parts {
+.header {
    display: inline;
     width: 1440px;
     height: 72px;
@@ -32,19 +32,9 @@ section{
 .navigation li, .address li, .studio-list, .activity li, .team-members {
     float: left;
 }
-.solutions {
 
-    width: 1440px;
-    height: 600px;
-    background-color: blue;
-}
 
-.solutions-title-buton {
-    width: 496px;
-    height: 168px;
-    margin-left: 496px;
-    padding-top: 260px;
-}
+
 
 h1 {
     width: 496px;
