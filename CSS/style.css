@@ -1,96 +1,122 @@
-section{
-    display: block;
-    width: 1440px;
+.body {
+    background-color: var(--background-activity);
 }
-.header {
-   display: inline;
-    width: 1440px;
-    height: 72px;
-    padding-right: 40px;
+:root{
+--background-cornflower: #E7E9FC;
+        --background-navy: #2E2F42;
+        --button-blue-iris: #4D5AE5;
+        --text-slate: #434455;
+        --background-cloud: #F4F4FD;
+        --base-white: #FFFFFF;
+        --text-slate: #434455;
+        --button-blue-active-ocean: #404BBF;
+        --background-activity:#E5E5E5;
 }
-
-.logo {
-    width: 115px;
-    height: 21px;
-    float: left;
-    padding-left: 156px;
+/* header*/
+header {
+    background-color: var(--base-white);
 }
-.navigation {
-    padding-left: 347px;
-}
-.address{
-    padding-left: 940px; 
-    padding-right: 156px;
-}
-
-.navigation, .address, .studio, .activity-list, .team-list {
+.navigation, .address, .studio, .activity, .team-list, .portfolio-list, .portfolio-all-list{
     list-style: none;
     
 }
+/* logo*/
+.logo {
+    color: var(--background-navy);
+}
+.web {
+    color: var(--button-blue-iris);
+}
+/* navigation*/
+.navigation a {
+    color: var(--background-navy);
+}
+.navigation a:hover {
+    color: var(--button-blue-iris);
+}
+.navigation a:focus {
+    color: var(--button-blue-iris);
 
-
-.navigation li, .address li, .studio-list, .activity li, .team-members {
-    float: left;
+}
+/* address*/
+.address a{
+    color: var(--text-slate);
+}
+.address a:hover {
+    color: var(--button-blue-iris);
+}
+.address a:focus {
+    color: var(--button-blue-iris);
 }
 
-
-
-
-h1 {
-    width: 496px;
+/* main*/
+/* hero*/
+.hero {
+    background-color: var(--background-navy);
 }
-
+.hero-title {
+    color: var(--base-white);
+}
 .button-order {
-    width: 169px;
-    height: 56px;
-    background-color: orange;
-
-    margin-top: 48px;
+    color: var(--base-white);
+    background-color: var(--button-blue-iris);
 }
-.studio-title-first {
+.button-order:hover {
+    background-color: var(--button-blue-active-ocean);
+}
+.button-order:focus {
+    background-color: var(--button-blue-active-ocean);
+}
+
+/* Studio*/
+.studio-invisible-title {
     display: none;
 }
-.studio {
-    width: 1128px;
-    height: 104px;
-    margin: 120px 132px 0 156px;
-    
+.paragraph-title {
+    color: var(--background-navy);
 }
-.studio-list {
-    width: 264px;
-    height: 104px;
-   
+.paragraph-text {
+    color: var(--text-slate);
 }
-
-
-
-.activity {
-    margin-top: 224px;
-        width: 1440px;
-        height: 732px;
+/* activity*/
+.section-title {
+    color: var(--background-navy);
 }
-.activity-title {
-    margin-top: 0;
-    padding-bottom: 19px;
-}
-h2 {
-    text-align: center;
-   
-}
-.activity-list {
-    margin: 0 156px 0 156px;
-    width: 1128px;
-    
-}
-.activity-photo {
-    padding-top: 112px;
-}
-.activity-photo-center {
-    padding: 112px 24px;
-    
-}
+/* team */
 .team {
-     
-    width: 1440px;
-    height: 732px;
+    background-color: var(--background-cloud);
+}
+.team-members {
+    background-color: var(--base-white);
+}
+.team-names {
+    color: var(--background-navy);
+}
+.team-positions {
+    color: var(--text-slate);
+}
+/* footer */
+footer {
+    background-color: var(--background-navy);
+}
+.logo-footer {
+    color: var(--background-cloud);
+}
+.footer-text {
+    color: var(--background-cloud);
+}
+
+
+/* PORTFOLIO */
+.portfolio-button {
+    color: var(--button-blue-iris);
+    background-color: var(--background-cloud);
+}
+.portfolio-button:hover {
+    color: var(--base-white);
+    background-color: var(--button-blue-active-ocean);
+}
+.portfolio-button:focus {
+    color: var(--base-white);
+    background-color: var(--button-blue-active-ocean);
 }
