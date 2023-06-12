@@ -31,15 +31,18 @@ header {
 }
 /* logo*/
 .logo {
-    color: var(--background-navy);
+    color: var(--button-blue-iris);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase; 
+
 }
 .web {
-    color: var(--button-blue-iris);
+    color: var(--background-navy);
 }
 /* navigation*/
 .navigation a {
@@ -138,13 +141,8 @@ h2 {
 footer {
     background-color: var(--background-navy);
 }
-.logo-footer {
+.web-footer {
     color: var(--background-cloud);
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.16;
 }
 .footer-text {
     color: var(--background-cloud);
