@@ -1,6 +1,14 @@
-.body {
-    background-color: var(--background-activity);
+body {
+    background-color: var(--base-white);
+    color: var(--text-slate);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
 }
+
 :root{
 --background-cornflower: #E7E9FC;
         --background-navy: #2E2F42;
@@ -12,6 +20,7 @@
         --button-blue-active-ocean: #404BBF;
         --background-activity:#E5E5E5;
 }
+
 /* header*/
 header {
     background-color: var(--base-white);
@@ -23,6 +32,11 @@ header {
 /* logo*/
 .logo {
     color: var(--background-navy);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
 }
 .web {
     color: var(--button-blue-iris);
@@ -30,6 +44,8 @@ header {
 /* navigation*/
 .navigation a {
     color: var(--background-navy);
+    font-weight: 500;
+    text-decoration: none;
 }
 .navigation a:hover {
     color: var(--button-blue-iris);
@@ -41,6 +57,7 @@ header {
 /* address*/
 .address a{
     color: var(--text-slate);
+    text-decoration: none;
 }
 .address a:hover {
     color: var(--button-blue-iris);
@@ -51,15 +68,25 @@ header {
 
 /* main*/
 /* hero*/
+button {
+    cursor: pointer;
+}
 .hero {
     background-color: var(--background-navy);
 }
 .hero-title {
     color: var(--base-white);
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
 }
 .button-order {
-    color: var(--base-white);
     background-color: var(--button-blue-iris);
+    color: var(--base-white);
+    font-family: inherit;
+    font-weight: 500;
+    text-align: center;
 }
 .button-order:hover {
     background-color: var(--button-blue-active-ocean);
@@ -69,6 +96,12 @@ header {
 }
 
 /* Studio*/
+h3 {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+}
+
 .studio-invisible-title {
     display: none;
 }
@@ -79,6 +112,12 @@ header {
     color: var(--text-slate);
 }
 /* activity*/
+h2 {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+}
 .section-title {
     color: var(--background-navy);
 }
@@ -101,6 +140,11 @@ footer {
 }
 .logo-footer {
     color: var(--background-cloud);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
 }
 .footer-text {
     color: var(--background-cloud);
@@ -111,12 +155,21 @@ footer {
 .portfolio-button {
     color: var(--button-blue-iris);
     background-color: var(--background-cloud);
+    font-family: inherit;
+        font-weight: 500;
+        text-align: center;
 }
 .portfolio-button:hover {
     color: var(--base-white);
     background-color: var(--button-blue-active-ocean);
+    
 }
 .portfolio-button:focus {
     color: var(--base-white);
     background-color: var(--button-blue-active-ocean);
+   
+}
+
+.portfolio-all-list a {
+    text-decoration: none;
 }
