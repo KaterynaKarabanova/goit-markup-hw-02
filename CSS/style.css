@@ -1,4 +1,4 @@
-:root{
+:root {
 --background-cornflower: #E7E9FC;
         --background-navy: #2E2F42;
         --button-blue-iris: #4D5AE5;
@@ -52,10 +52,10 @@ header {
     text-decoration: none;
 }
 .navigation-link:hover {
-    color: var(--button-blue-iris);
+    color: var(--button-blue-active-ocean);
 }
 .navigation-link:focus {
-    color: var(--button-blue-iris);
+    color: var(--button-blue-active-ocean);
 
 }
 /* address*/
@@ -170,8 +170,9 @@ button {
     background-color: var(--background-cloud);
     font-family: inherit;
         font-weight: 500;
-        line-height: 1.5;
         letter-spacing: 0.04em;
+        font-size: 16px;
+        line-height: 1.5;
         text-align: center;
 }
 .portfolio-button:hover {
